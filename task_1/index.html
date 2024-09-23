@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#home" class="logo">
+            <img src="https://graphicsfamily.com/wp-content/uploads/2020/10/Restaurant-logo-design-free-template-1536x864.jpg" alt="Restaurant Logo">
+        </a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div id="content">
+        <section id="home">
+            <h1>Welcome to Gourmet Delights</h1>
+            <img src="https://www.touchbistro.com/wp-content/uploads/2021/08/restaurant-interior-design-ideas-thumbnail.jpg" alt="Restaurant Interior">
+            <p>
+                At <strong>Gourmet Delights</strong>, we are passionate about bringing you the finest dining experience. Our restaurant combines a cozy atmosphere with an exceptional menu designed to delight your taste buds. Whether you’re joining us for a casual meal or celebrating a special occasion, our dedicated team is here to ensure you have a memorable experience.
+            </p>
+            <p>
+                Our menu features a diverse range of dishes, from gourmet burgers and artisan pizzas to mouth-watering desserts. Each dish is crafted using only the freshest ingredients, ensuring top-notch quality and flavor in every bite.
+            </p>
+            <p>
+                Located in the heart of the city, our restaurant is the perfect spot for food enthusiasts looking to enjoy a relaxing meal in a warm, inviting environment. We pride ourselves on offering exceptional service and a welcoming atmosphere where you can feel right at home.
+            </p>
+            <p>
+                Come visit us and discover why we are a favorite among locals and visitors alike. We look forward to serving you and making your dining experience truly special!
+            </p>
+        </section>
+        <section id="menu">
+            <h1>Our Menu</h1>
+            <div class="food-item">
+                <h2>Burgers</h2>
+                <img src="https://as2.ftcdn.net/v2/jpg/02/44/61/19/1000_F_244611927_yrh0ZIYwOGTDurVnCMAt7Cq8DR4sBkB0.jpg" alt="Burgers">
+                <p>Juicy and delicious burgers made with high-quality ingredients...</p>
+            </div>
+            <div class="food-item">
+                <h2>Pizzas</h2>
+                <img src="https://as1.ftcdn.net/v2/jpg/01/33/61/72/1000_F_133617244_dWdivRXwoLVzowl1kn3iFP9JGcuNd8n6.jpg" alt="Pizzas">
+                <p>Cheesy and tasty pizzas with a variety of toppings to choose from...</p>
+            </div>
+            <div class="food-item">
+                <h2>Desserts</h2>
+                <img src="https://img.freepik.com/free-photo/close-up-fancy-dessert_23-2150527580.jpg?t=st=1725956664~exp=1725960264~hmac=975a2676e47381404ddda709e18fb4826e64ae69e5936ac98f879cc6eb36caf4&w=360" alt="Desserts">
+                <p>Sweet and delightful desserts that will satisfy your cravings...</p>
+            </div>
+        </section>
+        <section id="about">
+            <h1>About Us</h1>
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/12/AU/YD/QA/55496844/restaurant-interior-designers-1000x1000.jpg" alt="Restaurant Interior">
+            <p>
+                Welcome to <strong>Gourmet Delights</strong>, where we serve delicious food with a touch of elegance. Established in 2020, our restaurant has become a favorite spot for food enthusiasts who appreciate high-quality ingredients and exceptional flavors.
+            </p>
+            <p>
+                At Gourmet Delights, our mission is to offer a memorable dining experience to every guest. We pride ourselves on our diverse menu, which includes everything from gourmet burgers and artisan pizzas to delectable desserts. Each dish is crafted with care by our skilled chefs, using only the freshest local ingredients.
+            </p>
+            <p>
+                Our vision is to create a warm and welcoming environment where friends and family can come together to enjoy great food and good company. Whether you're here for a casual meal or a special celebration, we strive to make every visit exceptional.
+            </p>
+            <p>
+                Thank you for choosing Gourmet Delights. We look forward to serving you and making your dining experience truly special.
+            </p>
+        </section>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>
+                We’d love to hear from you! Whether you have a question, a comment, or just want to say hello, feel free to reach out to us using the contact details below or through the contact form.
+            </p>
+            <p>
+                <strong>Address:</strong><br>
+                123 Delicious St,<br>
+                Foodie City, FC 45678<br>
+                Country
+            </p>
+            <p>
+                <strong>Phone:</strong><br>
+                (123) 456-7890
+            </p>
+            <p>
+                <strong>Email:</strong><br>
+                <a href="mailto:info@gourmetdelights.com">info@gourmetdelights.com</a>
+            </p>
+            <form action="submit_form.php" method="post">
+                <h2>Contact Form</h2>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <input type="submit" value="Send Message">
+            </form>
+            <div class="social-media">
+                <h2>Follow Us</h2>
+                <a href="https://facebook.com/gourmetdelights" target="_blank">Facebook</a> |
+                <a href="https://instagram.com/gourmetdelights" target="_blank">Instagram</a> |
+                <a href="https://twitter.com/gourmetdelights" target="_blank">Twitter</a>
+            </div>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

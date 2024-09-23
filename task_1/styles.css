@@ -1,0 +1,91 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 60px; /* Adjust according to navbar height */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    z-index: 1000; /* Ensures navbar is above other content */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+nav.scrolled {
+    background-color: #222; /* Darker background when scrolled */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav .logo img {
+    height: 50px; /* Adjust as needed */
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+    margin-left: 20px; /* Space between logo and menu items */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0; /* Lighter color on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+section {
+    padding: 60px 20px;
+    min-height: 100vh; /* Ensure sections take full viewport height */
+    background: #f4f4f4;
+    margin-bottom: 20px;
+}
+
+section:nth-child(even) {
+    background: #e4e4e4;
+}
+
+.food-item {
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.food-item img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Match the styling of the food item containers */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+#about img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Match the styling of the section */
+    margin-bottom: 20px; /* Space between image and text */
+}
